@@ -1,0 +1,31 @@
+<wrapper class="header">
+<container>
+    <row>
+    {{> gutter}}
+        <columns small="5" large="6" valign="middle" class="two-col-gutter">
+        <spacer size="18"></spacer>
+            <center>
+            <a href="http://AgapeWORKSplan.org/" target="_blank">
+                 <img src="http://www.nelnet.net/MarketingProd/email/2016/NBS/NTS/images/logo-agape.png" width="150" alt="AgapeWORKS logo" border="0" style="width: 200px;" /></a>
+               </center>
+         <spacer size="18"></spacer>
+         </columns>
+        {{> gutter}}
+    </row>
+</container>
+<container>
+	<row class="collapse hero">
+    	<columns small="12" large="12">
+        	<img src="http://www.nelnet.net/MarketingProd/email/2016/NBS/NTS/images/{{hero-img}}" alt="Banner Image" />
+        </columns>
+        </row>
+        <spacer size="20"></spacer>
+        <row>
+        {{> gutter}}
+        <columns small="12" large="10" valign="middle">
+        	<h1>{{{headline}}}</h1>
+        </columns>
+        {{> gutter}}
+    </row>
+</container>
+</wrapper>

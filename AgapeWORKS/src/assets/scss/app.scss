@@ -1,0 +1,98 @@
+@import 'settings';
+@import 'foundation-emails';
+
+td {
+word-break: break-word;
+-webkit-hyphens: none;
+-moz-hyphens: none;
+hyphens: none;
+border-collapse: collapse !important;
+}
+
+.gutter {
+  width: 40px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+@media screen and (max-width: 620px) {
+  table.body .columns.two-col-gutter {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+}
+
+table.button-center {
+  Margin-left: auto !important;
+  Margin-right: auto !important;
+ a {
+  text-align: center;
+  max-width: 400px;
+}
+}
+
+.txt-sm {
+  font-size: $small-font-size;
+}
+
+a {
+  text-decoration: underline;
+}
+
+h1 {
+  color: $secondary-color;
+  font-weight: 200;
+}
+
+h3 {
+  color: $secondary-color;
+}
+
+.preheader-show {
+  font-size:12px;
+  color:#196a89;
+  line-height:14px;
+  text-align:center;
+  padding:10px !important;
+  margin: 0 !important;
+}
+
+.header {
+
+  .columns.first {
+    padding-bottom: 0;
+  }
+}
+
+.hero {
+  border-top: solid 6px $secondary-color;
+}
+
+.primary-bg {
+  background-color: $primary-color;
+}
+
+
+.blog-thumb {
+  border: solid 1px #dddddd;
+}
+
+
+.footer {
+
+  p {
+    font-size: 13px;
+    color: #ffffff;
+  }
+
+
+  .container {
+    background: $dark-gray;
+    border-top: solid 8px $secondary-color;
+  }
+
+  .columns.first,
+  .columns.last {
+    padding-bottom: 0;
+  }
+}

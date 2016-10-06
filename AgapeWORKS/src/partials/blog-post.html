@@ -1,0 +1,26 @@
+
+<container>
+<wrapper class="grey-bg">
+<spacer size="26"></spacer>
+<row>
+{{> gutter}}
+<columns large="3" small="12">
+
+<a href="{{blog-url-image}}" target="_blank"><img class="blog-thumb float-center" src="http://www.nelnet.net/MarketingProd/email/2016/NDS/Prevu/images/{{blog-img}}" alt="{{{blog-title}}}" /></a>
+<spacer size="16"></spacer>
+
+</columns>
+<columns large="7" small="12">
+<a href="{{blog-url-title}}" target="_blank"><h4 class="small-text-center">{{{blog-title}}}</h4></a>
+
+<p class="small-text-center">{{{blog-excerpt}}}
+    <button href="{{blog-url-read-more}}" target="_blank" class="small-expanded radius small success">{{{blog-button-text}}}</button>
+    </p>
+
+</columns>
+{{> gutter}}
+
+</row>
+<spacer size="10"></spacer>
+</wrapper>
+</container>
